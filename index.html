@@ -84,6 +84,27 @@
                     </div>
                 </div>
 
+                <!-- Ellipse Card -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/ellipse.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Ellipse</h2>
+                        <p>Area (A) = π ab</p>
+                        <p>
+                            <!-- Ellipse major radius -->
+                            <input type="text" class="border  text-xl w-24 px-2 bg-gray-200" placeholder="major" name="" id="ellipse major radius">
+                            <span class="ml-2">cm</span>
+                            <!-- Ellipse minor radius -->
+                            <input type="text" class="border  text-xl w-24 px-2 bg-gray-200" placeholder="minor" name="" id="ellipse minor radius">
+                            <span class="ml-4">cm</span>
+                        </p>
+                        <p class="text-2xl">Area: <span id="ellipse area">0</span> cm <sup>2</sup></p>
+                        <div class="card-actions">
+                            <button onclick="calculateEllipseArea()" class="btn btn-primary w-full">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+
 
 
                 <!-- Second Card -->
